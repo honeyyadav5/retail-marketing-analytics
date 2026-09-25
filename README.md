@@ -34,11 +34,3 @@ Customer segmentation, retention and lifetime-value analysis on the UCI *Online 
 - 1,309 "At Risk" customers used to spend well but have not bought in ~9 months, so they are a clear win-back target
 - **Top 1% of customers (59) have projected CLV ≥ £51,215** and account for 32% of revenue
 
-`figures/customer_segments_clv.csv` (one row per customer with RFM, segment and CLV) is ready to load into **Power BI** for a dashboard.
-
-## How to run
-```bash
-pip install -r ../requirements.txt
-# download online_retail_II.xlsx from https://archive.ics.uci.edu/dataset/502 into data/
-jupyter notebook retail_analytics.ipynb
-```
